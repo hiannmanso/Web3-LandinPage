@@ -27,10 +27,10 @@ export default function Wellcome() {
 				></Image>
 			</div>
 			<div className='infosWellcome'>
-				<header>WELCOME TO CRONOS</header>
-				<h1>The Internet of Blockchains.</h1>
+				<header className='head'>WELCOME TO CRONOS</header>
+				<h1 className='principal'>The Internet of Blockchains.</h1>
 				{/* ARRUMAR ESSA FONTE/\ */}
-				<footer>
+				<footer className='footer'>
 					Cronos is an ever expanding ecosystem of connected apps and
 					services, built for a decentralized future.
 				</footer>

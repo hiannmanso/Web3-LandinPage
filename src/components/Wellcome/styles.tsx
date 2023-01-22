@@ -6,8 +6,10 @@ interface WellcomeCompnentProps {
 	}
 }
 export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
+	margin-bottom: 33%;
 	margin-top: 10%;
 	position: relative;
+	width: 100vw;
 	.background {
 		overflow: hidden;
 		width: 100%;
@@ -93,27 +95,21 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 			height: 120px !important;
 			right: -40px !important;
 		}
-	}
-	@media (min-width: 768px) {
-		header,
 		footer {
-			font-size: 2em;
 			max-width: 25em;
 		}
-		h1 {
-			font-size: 10em;
+	}
+	@media (min-width: 768px) {
+		footer {
+			max-width: 25em;
 		}
 	}
 	@media (min-width: 1024px) {
 		.background {
 			height: 700px;
 		}
-		header,
-		footer {
-			font-size: 2.4em;
-		}
+
 		h1 {
-			font-size: 15.3em;
 			max-width: 10em;
 		}
 		.firstImg {
