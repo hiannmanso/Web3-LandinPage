@@ -80,6 +80,20 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 
 		color: #ffffff;
 	}
+	@media (max-width: 760px) {
+		.background {
+			height: 200px;
+		}
+		.firstImg {
+			width: 70px !important;
+			height: 70px !important;
+		}
+		.secondImg {
+			width: 120px !important;
+			height: 120px !important;
+			right: -40px !important;
+		}
+	}
 	@media (min-width: 768px) {
 		header,
 		footer {
@@ -89,16 +103,11 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 		h1 {
 			font-size: 10em;
 		}
-		.firstImg {
-			width: 300px;
-			height: 300px;
-		}
-		.secondImg {
-			width: 662px;
-			height: 662px;
-		}
 	}
 	@media (min-width: 1024px) {
+		.background {
+			height: 700px;
+		}
 		header,
 		footer {
 			font-size: 2.4em;
@@ -108,12 +117,13 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 			max-width: 10em;
 		}
 		.firstImg {
-			width: 336px;
-			height: 336px;
+			width: 300px !important;
+			height: 300px !important;
 		}
 		.secondImg {
-			width: 662px;
-			height: 662px;
+			right: -30% !important;
+			width: 662px !important;
+			height: 662px !important;
 		}
 	}
 `
