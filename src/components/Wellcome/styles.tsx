@@ -1,7 +1,41 @@
 import styled from 'styled-components'
 
-export const WellcomeComponent = styled.main`
+interface WellcomeCompnentProps {
+	imageSizes: {
+		[key: string]: { width: number; height: number }
+	}
+}
+export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 	margin-top: 10%;
+	position: relative;
+	.background {
+		overflow: hidden;
+		width: 100%;
+		height: 400px;
+		/* height: 100%; */
+
+		position: absolute;
+		z-index: -1;
+
+		.firstImg {
+			left: 20%;
+			top: 0;
+			width: 150px;
+			height: 150px;
+		}
+		.secondImg {
+			right: -100px;
+			bottom: 0;
+			width: 300px;
+			height: 300px;
+		}
+		.firstImg,
+		.secondImg {
+			filter: blur(0.3rem);
+			position: absolute;
+		}
+	}
+
 	.infosWellcome {
 		display: flex;
 		flex-direction: column;
@@ -55,6 +89,14 @@ export const WellcomeComponent = styled.main`
 		h1 {
 			font-size: 10em;
 		}
+		.firstImg {
+			width: 300px;
+			height: 300px;
+		}
+		.secondImg {
+			width: 662px;
+			height: 662px;
+		}
 	}
 	@media (min-width: 1024px) {
 		header,
@@ -64,6 +106,14 @@ export const WellcomeComponent = styled.main`
 		h1 {
 			font-size: 15.3em;
 			max-width: 10em;
+		}
+		.firstImg {
+			width: 336px;
+			height: 336px;
+		}
+		.secondImg {
+			width: 662px;
+			height: 662px;
 		}
 	}
 `
