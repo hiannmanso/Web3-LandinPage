@@ -1,3 +1,4 @@
+import Community from 'src/components/Community'
 import Header from 'src/components/Header'
 import Wellcome from 'src/components/Wellcome'
 
@@ -6,7 +7,7 @@ export default function Home() {
 		<>
 			<Header />
 			<Wellcome />
-			{/* <Community /> */}
+			<Community />
 		</>
 	)
 }

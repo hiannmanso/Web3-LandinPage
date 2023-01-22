@@ -117,7 +117,7 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 			height: 300px !important;
 		}
 		.secondImg {
-			right: -30% !important;
+			right: -25em !important;
 			width: 662px !important;
 			height: 662px !important;
 		}
