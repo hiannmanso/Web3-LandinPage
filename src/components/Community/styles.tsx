@@ -72,6 +72,7 @@ export const CommunityComponent = styled.main`
 		.title {
 			text-align: center;
 			font-size: 3em;
+			padding: 15px 0;
 		}
 
 		.statics {
@@ -98,6 +99,11 @@ export const CommunityComponent = styled.main`
 				font-size: 20px;
 				line-height: 26px;
 			}
+		}
+		.numbersRight {
+			margin-bottom: 130px;
+		}
+		.title {
 		}
 	}
 `

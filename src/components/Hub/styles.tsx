@@ -20,6 +20,7 @@ export const hubComponent = styled.main`
 		header {
 			text-align: center;
 		}
+
 		word-break: break-word;
 
 		background: url('/Thorys 3.png') no-repeat fixed center;
@@ -35,15 +36,17 @@ export const hubComponent = styled.main`
 	.item {
 		display: flex;
 		flex-direction: column;
-		width: 450px;
+		width: 100%;
 		padding: 10px;
 		align-items: flex-start;
 		text-align: left;
+		justify-content: center;
+		align-items: center;
 		/* word-break: break-all; */
 		h1 {
 			font-family: 'DM Sans';
 
-			padding: 7px 0 7px;
+			padding: 16px 0 16px;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 50px;
@@ -92,21 +95,27 @@ export const hubComponent = styled.main`
 	.img:hover {
 		scale: 1.2;
 	}
+
 	@media (max-width: 768px) {
 		.item {
 			display: flex;
 			flex-wrap: wrap;
-			max-width: 150px;
+			/* max-width: 150px; */
 			h1 {
-				font-size: 1.5em;
+				font-size: 1.7em;
 			}
 			p {
-				font-size: 1em;
+				font-size: 1.3em;
 			}
 		}
 		.img {
 			width: 150px !important;
 			height: 150px !important;
+		}
+		.hearth {
+			h1 {
+				padding: 6px 0;
+			}
 		}
 		.bttn {
 			width: 100px !important;
@@ -117,7 +126,7 @@ export const hubComponent = styled.main`
 		align-items: center;
 	}
 	@media (min-width: 768px) {
-		width: 940px;
+		width: 750px;
 		.items {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -130,6 +139,9 @@ export const hubComponent = styled.main`
 
 			width: 600px;
 			height: 600px;
+			h1 {
+				padding: 46px 0;
+			}
 		}
 	}
 `

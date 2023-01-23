@@ -16,11 +16,12 @@ export const FooterComponent = styled.footer`
 			font-style: normal;
 			font-weight: 700;
 			font-size: 50px;
-
+			width: 100%;
 			letter-spacing: 0.01em;
 			color: #ffffff;
 		}
 		h2 {
+			width: 100%;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 27px;
@@ -28,7 +29,7 @@ export const FooterComponent = styled.footer`
 			color: #ffffff;
 		}
 		input {
-			width: 480px;
+			max-width: 480px;
 			height: 91.79px;
 			left: 960px;
 			top: 4764.75px;
@@ -115,21 +116,25 @@ export const FooterComponent = styled.footer`
 				text-align: center;
 			}
 			input {
-				margin-left: 10px;
-				width: 120px;
-				height: 40px;
+				margin-left: 10px !important;
+				width: 120px !important;
+				height: 40px !important;
+				font-size: 15px;
 			}
 		}
 		.infoFooter {
 			h1 {
-				font-size: 1.6em;
+				font-size: 1.3em;
 			}
 			p {
-				font-size: 1.2em;
+				font-size: 1em;
 			}
 		}
+		.clm {
+			margin: 0 2.5px;
+		}
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 767px) {
 		.transmissions {
 			h1 {
 				font-size: 5em;
@@ -137,6 +142,9 @@ export const FooterComponent = styled.footer`
 			h2 {
 				font-size: 2.7em;
 			}
+		}
+		.clm {
+			margin: 6px;
 		}
 	}
 `

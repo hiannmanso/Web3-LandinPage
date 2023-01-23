@@ -7,10 +7,9 @@ export default function Footer() {
 			<div className='transmissions'>
 				<div className='boxTransmission'>
 					<h1 className='titleTransmission'>Receive transmissions</h1>
-					<div>
-						<h2 className='subtitleTransamission'>
-							Unsubscribe at any time. Privacy policy
-						</h2>
+
+					<h2 className='subtitleTransamission'>
+						Unsubscribe at any time. Privacy policy
 						<Image
 							className='icon'
 							src={'./arrow.svg'}
@@ -18,7 +17,7 @@ export default function Footer() {
 							height={8}
 							alt=''
 						/>
-					</div>
+					</h2>
 				</div>
 				<input type='text' placeholder='Your Email' />
 			</div>
