@@ -28,6 +28,10 @@ export default createGlobalStyle`
         font-weight: 400;
         font-size: 1.3em;
         }
+        .bttn:hover {
+		cursor: pointer;
+		transform: scale(1.2);
+	}
         .title{
             font-style: normal;
             font-weight: 400;

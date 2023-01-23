@@ -21,6 +21,7 @@ export const CommunityComponent = styled.main`
 
 		width: 40%;
 	}
+
 	.left {
 		justify-content: flex-start;
 		padding-left: 10%;

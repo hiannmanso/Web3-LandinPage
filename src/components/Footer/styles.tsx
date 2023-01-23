@@ -32,9 +32,19 @@ export const FooterComponent = styled.footer`
 			height: 91.79px;
 			left: 960px;
 			top: 4764.75px;
-
+			border: none;
 			background: rgba(255, 255, 255, 0.08);
+			box-sizing: border-box;
+			font-family: 'DM Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 27px;
+			line-height: 35px;
+			letter-spacing: 0.01em;
+			padding: 28px 0 28px 32px;
+			color: #ffffff;
 		}
+
 		border-top: 1px solid rgba(255, 255, 255, 0.1);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -74,6 +84,11 @@ export const FooterComponent = styled.footer`
 
 			letter-spacing: 0.01em;
 			color: #ffffff;
+		}
+		h1:hover,
+		p:hover {
+			cursor: pointer;
+			transform: scale(1.1);
 		}
 		p {
 			padding-bottom: 4px;
