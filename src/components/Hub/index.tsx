@@ -1,18 +1,16 @@
 import Image from 'next/image'
 import * as s from './styles'
-
 export default function Hub() {
 	return (
 		<s.hubComponent>
-			<Image
-				className='circle'
-				src='/Thorus 3.png'
-				alt='thorus'
-				width={320}
-				height={320}
-			/>
-			{/* ARRUMAR ESSA IMAGE */}
 			<section className='hearth'>
+				<Image
+					className='circle'
+					src='/Thorus 3.png'
+					alt='thorus'
+					width={320}
+					height={320}
+				/>
 				<header className='head'>ENTER THE CRONOS HUB</header>
 				<h1 className='title'>The Heart of the Interchain.</h1>
 				<footer className='footer'>

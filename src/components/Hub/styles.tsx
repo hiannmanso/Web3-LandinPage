@@ -6,8 +6,8 @@ export const hubComponent = styled.main`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	position: relative;
 	.hearth {
+		position: relative;
 		/* background-image: url(''); */
 		width: 320px;
 		height: 320px;
@@ -35,11 +35,11 @@ export const hubComponent = styled.main`
 	.item {
 		display: flex;
 		flex-direction: column;
-		max-width: 450px;
+		width: 450px;
 		padding: 10px;
 		align-items: flex-start;
 		text-align: left;
-		word-break: break-all;
+		/* word-break: break-all; */
 		h1 {
 			font-family: 'DM Sans';
 
@@ -67,7 +67,8 @@ export const hubComponent = styled.main`
 		z-index: -1;
 		filter: blur(0.6em);
 		top: 0;
-		left: calc(50% - 320px);
+		width: 100%;
+		height: 100%;
 	}
 	.bttn {
 		width: 281px;
@@ -87,6 +88,9 @@ export const hubComponent = styled.main`
 		line-height: 26px;
 
 		color: #06070a;
+	}
+	.img:hover {
+		scale: 1.2;
 	}
 	@media (max-width: 768px) {
 		.item {
@@ -113,7 +117,7 @@ export const hubComponent = styled.main`
 		align-items: center;
 	}
 	@media (min-width: 768px) {
-		width: 800px;
+		width: 940px;
 		.items {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -125,11 +129,7 @@ export const hubComponent = styled.main`
 			margin: 0 auto;
 
 			width: 600px;
-			height: 400px;
+			height: 600px;
 		}
-		/* width: 527;
-			height: 527px; */
-		/* max-width: 840px;
-			max-height: 840px; */
 	}
 `

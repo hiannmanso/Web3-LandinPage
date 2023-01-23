@@ -1,11 +1,6 @@
 import styled from 'styled-components'
 
-interface WellcomeCompnentProps {
-	imageSizes: {
-		[key: string]: { width: number; height: number }
-	}
-}
-export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
+export const WellcomeComponent = styled.main`
 	margin-bottom: 33%;
 	margin-top: 10%;
 	position: relative;
@@ -14,11 +9,8 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 		overflow: hidden;
 		width: 100%;
 		height: 400px;
-		/* height: 100%; */
-
 		position: absolute;
 		z-index: -1;
-
 		.firstImg {
 			left: 20%;
 			top: 0;
@@ -33,7 +25,7 @@ export const WellcomeComponent = styled.main<WellcomeCompnentProps>`
 		}
 		.firstImg,
 		.secondImg {
-			filter: blur(0.3rem);
+			/* filter: blur(0.3rem); */
 			position: absolute;
 		}
 	}

@@ -1,16 +1,23 @@
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 import * as s from './styles'
 export default function Community() {
 	return (
 		<s.CommunityComponent>
 			<div className='background'>
-				<Image
-					className='img'
-					src={'/Helix.png'}
-					width={618}
-					height={618}
-					alt='helix'
-				/>
+				<motion.div
+					initial={{ opacity: 0.2 }}
+					whileInView={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+				>
+					<Image
+						className='img'
+						src={'/Helix.png'}
+						width={618}
+						height={618}
+						alt='helix'
+					/>
+				</motion.div>
 			</div>
 			<div className='communityInfos'>
 				<div className='boxInfos'>
