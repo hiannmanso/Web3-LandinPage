@@ -8,12 +8,13 @@ export const hubComponent = styled.main`
 	align-items: flex-start;
 	position: relative;
 	.hearth {
+		/* background-image: url(''); */
 		width: 320px;
 		height: 320px;
 		display: flex;
 		flex-direction: column;
-		/* align-items: center;
-		justify-content: center; */
+		align-items: center;
+		justify-content: center;
 		h1,
 		footer,
 		header {
@@ -25,8 +26,7 @@ export const hubComponent = styled.main`
 	}
 
 	.items {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -69,14 +69,12 @@ export const hubComponent = styled.main`
 		top: 0;
 		left: calc(50% - 320px);
 	}
-	button {
+	.bttn {
 		width: 281px;
 		height: 86px;
 		border: none;
 		display: flex;
 		flex-direction: row;
-		padding: 30px 114px;
-		gap: 39px;
 		background: linear-gradient(
 			95.46deg,
 			#ffffff 0%,
@@ -90,13 +88,10 @@ export const hubComponent = styled.main`
 
 		color: #06070a;
 	}
-	@media (max-width: 400) {
-		.items {
-			display: flex;
-		}
-	}
 	@media (max-width: 768px) {
 		.item {
+			display: flex;
+			flex-wrap: wrap;
 			max-width: 150px;
 			h1 {
 				font-size: 1.5em;
@@ -109,13 +104,20 @@ export const hubComponent = styled.main`
 			width: 150px !important;
 			height: 150px !important;
 		}
-		button {
-			width: 100px;
-			height: 50px;
+		.bttn {
+			width: 100px !important;
+			height: 40px !important;
+			font-size: 10px !important;
+			margin-top: 20px;
 		}
+		align-items: center;
 	}
 	@media (min-width: 768px) {
 		width: 800px;
+		.items {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
 		.hearth {
 			display: flex;
 			flex-direction: column;

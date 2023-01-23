@@ -84,10 +84,10 @@ export default function Hub() {
 					</p>
 				</div>
 			</section>
-			<button className='bttn white'>
+			<div className='bttn white'>
 				Cosmos Hub
 				<Image src='./Vector.svg' width={10} height={10} alt='' />
-			</button>
+			</div>
 		</s.hubComponent>
 	)
 }

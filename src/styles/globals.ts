@@ -56,11 +56,7 @@ export default createGlobalStyle`
             letter-spacing: 0.01em;
             color: #FFFFFF;
         }
-        button{
-            width: 281px;
-            height: 86px;
-            border:none;
-        }
+
         .white{
             background: linear-gradient(95.46deg, #FFFFFF 0%, rgba(255, 255, 255, 0.51) 101.07%)
         }
@@ -76,6 +72,9 @@ export default createGlobalStyle`
             font-style: normal;
             font-weight: 500;
             font-size: 2em;
+            width: 281px;
+            height: 86px;
+            border:none;
             /* identical to box height */
 
 
