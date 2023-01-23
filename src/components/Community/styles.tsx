@@ -74,7 +74,7 @@ export const CommunityComponent = styled.main`
 		}
 
 		.statics {
-			font-size: 4em;
+			font-size: 3em;
 		}
 		.footer {
 			text-align: center;

@@ -6,7 +6,7 @@ export default function Community() {
 			<div className='background'>
 				<Image
 					className='img'
-					src={'/Helix.svg'}
+					src={'/Helix.png'}
 					width={618}
 					height={618}
 					alt='helix'
