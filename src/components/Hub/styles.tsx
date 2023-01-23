@@ -37,7 +37,7 @@ export const hubComponent = styled.main`
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		padding: 10px;
+		margin: 10px;
 		align-items: flex-start;
 		text-align: left;
 		justify-content: center;
@@ -55,6 +55,7 @@ export const hubComponent = styled.main`
 			color: #ffffff;
 		}
 		p {
+			width: 90%;
 			font-family: 'DM Sans';
 			font-style: normal;
 			font-weight: 400;
