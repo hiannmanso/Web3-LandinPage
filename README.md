@@ -35,4 +35,8 @@ Finally, start the application:
 ```git
 npm run dev
 ```
+or Open in the deploy link:
 
+```git
+https://web3-landin-page-fiwy.vercel.app/
+```
