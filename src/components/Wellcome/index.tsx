@@ -15,7 +15,7 @@ export default function Wellcome() {
 				<motion.img
 					style={{ rotate }}
 					className='firstImg'
-					src={'/Icosahedron.png'}
+					src={'/assets/Icosahedron.png'}
 					width={100}
 					height={100}
 					alt='lcosahedron'
@@ -24,7 +24,7 @@ export default function Wellcome() {
 				<motion.img
 					style={{ rotate }}
 					className='secondImg'
-					src={'/Icosahedron.png'}
+					src={'/assets/Icosahedron.png'}
 					width={100}
 					height={100}
 					alt='lcosahedron'

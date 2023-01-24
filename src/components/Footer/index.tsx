@@ -12,7 +12,7 @@ export default function Footer() {
 						Unsubscribe at any time. Privacy policy
 						<Image
 							className='icon'
-							src={'./arrow.svg'}
+							src={'./assets/arrow.svg'}
 							width={8}
 							height={8}
 							alt=''

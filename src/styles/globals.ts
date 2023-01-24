@@ -3,6 +3,14 @@ import { reset } from 'styled-reset'
 
 export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+    @font-face {
+    font-family: 'Helvetica-Neue';
+    src: url('../assets/font/Helvetica-Neue/Helvetica Neue Medium Extended/Helvetica Neue Medium Extended.ttf');
+   
+    font-weight: 400;
+    font-style: normal;
+    }
+    
     ${reset}
     :root{
         font-size:62.5%;
@@ -22,6 +30,13 @@ export default createGlobalStyle`
         font-style: normal;
 		font-weight: 400;
 		font-size: 5em;
+        letter-spacing: -0.02em;
+
+background: linear-gradient(94.78deg, #FFFFFF 1.7%, rgba(255, 255, 255, 0.44) 100.26%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
         }
         .footer{
         font-style: normal;
@@ -33,6 +48,7 @@ export default createGlobalStyle`
 		transform: scale(1.2);
 	}
         .title{
+            font-family: 'Helvetica-Neue';
             font-style: normal;
             font-weight: 400;
             font-size: 3.6em;
@@ -43,6 +59,7 @@ export default createGlobalStyle`
             text-fill-color: transparent;
         }
         .statics{
+            font-family:"Helvetica-Neue", sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 4.1em;

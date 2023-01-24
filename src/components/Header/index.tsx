@@ -12,7 +12,7 @@ export default function Header() {
 			<div className='getCronos'>
 				<h2>Get CRONOS</h2>
 				<Image
-					src={'./arrow.svg'}
+					src={'./assets/arrow.svg'}
 					alt='arrow'
 					width={7.1}
 					height={15.87}

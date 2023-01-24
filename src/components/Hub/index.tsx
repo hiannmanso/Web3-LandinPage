@@ -6,7 +6,7 @@ export default function Hub() {
 			<section className='hearth'>
 				<Image
 					className='circle'
-					src='/Thorus 3.png'
+					src='/assets/Thorus 3.png'
 					alt='thorus'
 					width={320}
 					height={320}
@@ -23,7 +23,7 @@ export default function Hub() {
 				<div className='item'>
 					<Image
 						className='img'
-						src={'/Group 8662.svg'}
+						src={'/assets/Group 8662.svg'}
 						alt=''
 						width={243}
 						height={243}
@@ -38,7 +38,7 @@ export default function Hub() {
 				<div className='item'>
 					<Image
 						className='img'
-						src={'/image 6.svg'}
+						src={'/assets/Group 8663.svg'}
 						alt=''
 						width={243}
 						height={243}
@@ -53,7 +53,7 @@ export default function Hub() {
 				<div className='item'>
 					<Image
 						className='img'
-						src={'/chart-dynamic-premium.svg'}
+						src={'/assets/Group 8664.svg'}
 						alt=''
 						width={243}
 						height={243}
@@ -69,7 +69,7 @@ export default function Hub() {
 				<div className='item'>
 					<Image
 						className='img'
-						src={'/image 3.svg'}
+						src={'/assets/Group 8665.svg'}
 						alt=''
 						width={243}
 						height={243}

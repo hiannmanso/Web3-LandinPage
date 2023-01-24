@@ -12,7 +12,7 @@ export default function Community() {
 				>
 					<Image
 						className='img'
-						src={'/Helix.png'}
+						src={'/assets/Helix.png'}
 						width={618}
 						height={618}
 						alt='helix'

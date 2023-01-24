@@ -29,7 +29,10 @@ export const WellcomeComponent = styled.main`
 			position: absolute;
 		}
 	}
-
+	.principal {
+		font-family: 'Helvetica-Neue', 'sans-serif';
+		font-weight: 400;
+	}
 	.infosWellcome {
 		display: flex;
 		flex-direction: column;

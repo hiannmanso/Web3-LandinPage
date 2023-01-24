@@ -75,6 +75,7 @@ export const hubComponent = styled.main`
 		height: 100%;
 	}
 	.bttn {
+		margin-top: 10px;
 		width: 281px;
 		height: 86px;
 		border: none;
