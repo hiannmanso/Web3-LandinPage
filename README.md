@@ -13,7 +13,7 @@
 <div align="center">
   <h3>Built With</h3>
 
-  <img src="https://blog.rocketseat.com.br/content/images/2018/12/ssr-nextjs-reactjs.png" height="30px"/>
+  <img src="https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png" height="30px"/>
 
 
 # Getting Started
